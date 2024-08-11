@@ -15,6 +15,9 @@ $data = json_decode(file_get_contents(__DIR__ . "/assets/datas/data.json"), true
 <body>
     <h1>Priyanshu Maurya PHP</h1>
     <p><?= $text ?></p>
+    <?php
+      echo "SHA256: " . hash('sha256', "Priyanshu Maurya");
+      ?>
     <pre>
     ASCII ART:
         <!-- ASCII Art of the first letter of your name -->
@@ -29,11 +32,7 @@ $data = json_decode(file_get_contents(__DIR__ . "/assets/datas/data.json"), true
         **
         **
         **
-    </pre>
-    <?php
-      echo "SHA256: " . hash('sha256', "Priyanshu Maurya");
-    ?>
-    <br/>   
+    </pre>  
     <br/> 
    <a href="/public/assets/check.php">Click here to check the error setting</a>
    <br/>
