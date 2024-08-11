@@ -31,7 +31,7 @@ $data = json_decode(file_get_contents(__DIR__ . "/assets/datas/data.json"), true
         **
     </pre>
     <?php
-      <p>The SHA256 hash of "Priyanshu Maurya" is  echo "SHA256: " . hash('sha256', "Priyanshu Maurya");</p>
+      echo "SHA256: " . hash('sha256', "Priyanshu Maurya");
     ?>
     <br/>   
     <br/> 
