@@ -10,11 +10,11 @@
         "dest": "/api/index.php"
       },
       {
-        "src": "/assets/check.php",
+        "src": "public/assets/check.php",
         "dest": "/public/assets/check.php"
       },
       {
-        "src": "/assets/fail.php",
+        "src": "public/assets/fail.php",
         "dest": "/public/assets/fail.php"
       },
       {
